@@ -1,0 +1,15 @@
+{
+  "name": "sqldatabseproject",
+  "version": "1.0.0",
+  "description": "This database class is a general purpose class for creating and using Maraiadb/mySQL queries. Constructor takes all necessary information needed to opeen a database connection as a parameter object. The layer is used between the database engine and our application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "mariadb": "^2.5.5"
+  }
+}
